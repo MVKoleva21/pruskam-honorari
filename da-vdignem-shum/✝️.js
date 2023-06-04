@@ -4,7 +4,6 @@ var color = document.getElementById("colorBackground");
             var randomColor = getRandomColor();
             document.body.style.background = randomColor;
         }
-
         var getRandomColor = () => {
             var red = Math.floor(Math.random() * 256);
             var green = Math.floor(Math.random() * 256);
