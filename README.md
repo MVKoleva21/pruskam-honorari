@@ -157,28 +157,35 @@
 - `offsetWidth`: width of the node in pixels
 
 ## Mouse Events:
-
 - click: when the mouse clicks on an element (touchscreen devices generate it on a tap).
 - contextmenu: when the mouse right-clicks on an element.
 - mouseover / mouseout: when the mouse cursor comes over / leaves an element.
 - mousedown / mouseup: when the mouse button is pressed / released over an element.
 - mousemove: when the mouse is moved.
 
-## Keyboard Events:
+## For mouseover:
+- event.target: is the element where the mouse came over.
+- event.relatedTarget: is the element from which the mouse came (relatedTarget → target).
 
+## For mouseout:
+- event.target: is the element that the mouse left.
+- event.relatedTarget: is the new under-the-pointer element that the mouse left for (target → relatedTarget).
+
+## Coordinates:
+ - Window-relative: clientX and clientY
+ - Document-relative: pageX and pageY
+
+## Keyboard Events:
 - keydown and keyup: when a keyboard key is pressed and released.
 
 ## Form Element Events:
-
 - submit: when the visitor submits a <form>.
 - focus: when the visitor focuses on an element, e.g., on an <input>.
 
 ## Document Events:
-
 - DOMContentLoaded: when the HTML is loaded and processed, DOM is fully built.
 
 ## CSS Events:
-
 - transitionend: when a CSS-animation finishes.
 
 ## Key Terms
@@ -198,4 +205,3 @@
  - ECMAScript - a general programming language, standardized by Ecma International according to the document ECMA-262. It is a JavaScript standard meant to ensure the interoperability of Web pages across different Web browsers
  - MDN (Mozilla) JavaScript Reference -  a manual with examples and other information. It’s great to get in-depth information about individual language functions, methods etc
  - MSDN - Microsoft manual with a lot of information, including JavaScript (often referred to as JScript). If one needs something specific to Internet Explorer
-
