@@ -189,6 +189,7 @@
 - transitionend: when a CSS-animation finishes.
 
 ## Key Terms
+
  - callback - A callback is a response to an event, such as a script execution in response to a mouse click
  - dynamic application - A dynamic application is one that adjusts and responds to end particular users or user actions
  - event handler - An event handler is an optional script or executable that handles input received in a program. Handlers are JavaScript code inside the `<html>` tags `(rather than the <script> tags)` that execute other JavaScript code in response to an event
