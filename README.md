@@ -82,6 +82,7 @@
 ## Comparisons
  - Equalty == - checks with type conversion
  - Strict equalty === - checks without type conversion
+ - Unicode comparison: `a = 13 -> '1', '3'`
  - ! null === undefined -> false, but null == undefined -> true !
 
  - `null > 0 //false`
