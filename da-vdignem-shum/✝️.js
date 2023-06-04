@@ -1,1 +1,1 @@
-console.log("hiw");
+alert("hui");
