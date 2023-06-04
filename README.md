@@ -152,7 +152,34 @@
 ## DOM
  - DoOM: document object model
  - `document.body.style.background`
- - 
+ - `location.href`
+- `innerHTML`: HTML contents of the node
+- `offsetWidth`: width of the node in pixels
+
+## Mouse Events:
+
+- click: when the mouse clicks on an element (touchscreen devices generate it on a tap).
+- contextmenu: when the mouse right-clicks on an element.
+- mouseover / mouseout: when the mouse cursor comes over / leaves an element.
+- mousedown / mouseup: when the mouse button is pressed / released over an element.
+- mousemove: when the mouse is moved.
+
+## Keyboard Events:
+
+- keydown and keyup: when a keyboard key is pressed and released.
+
+## Form Element Events:
+
+- submit: when the visitor submits a <form>.
+- focus: when the visitor focuses on an element, e.g., on an <input>.
+
+## Document Events:
+
+- DOMContentLoaded: when the HTML is loaded and processed, DOM is fully built.
+
+## CSS Events:
+
+- transitionend: when a CSS-animation finishes.
 
 ## Key Terms
  - callback - A callback is a response to an event, such as a script execution in response to a mouse click
