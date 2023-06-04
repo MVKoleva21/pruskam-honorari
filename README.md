@@ -105,3 +105,7 @@
         - `create…` – create something,
         - `check…` – check something and return a boolean, etc.
     - Logical not: `if(!(...))`
+
+## Arrow functions
+ - `let func = (parameter1..parameterN) => { body; }`
+ - Anonymus arrow function: `let func = () => { body }`
