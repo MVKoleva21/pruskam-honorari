@@ -100,8 +100,8 @@
   - Local variables: Variables declared inside a function
    - Outer variables: Variables outside a function
     - Function starting with:
-        - "get…" – return a value,
-        - "calc…" – calculate something,
-        - "create…" – create something,
-        - "check…" – check something and return a boolean, etc.
+        - `get…` – return a value,
+        - `calc…` – calculate something,
+        - `create…` – create something,
+        - `check…` – check something and return a boolean, etc.
     - Logical not: `if(!(...))`
