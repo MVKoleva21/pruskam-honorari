@@ -138,8 +138,23 @@
      - `indexOf` - returns the index of an exactc elemnt of the array
      - `includes` - returns rather the array has specific element or not
 
-## Key Terms
+## Strings
+- `\n`: New line
+- `\r`: In Windows text files, a combination of two characters `\r\n` represents a line break, while on non-Windows OS it's just `\n`. That's for historical reasons, but most Windows software also understands `\n`.
+- `\'`, `\"`, `\``: Quotes
+- `\\`: Backslash
+- `\t`: Tab
+- `str.at(0)` - first element of a string
+- `str.at(-1)` - last element of a string
+- `toUpperCase()` `toLowerCase`
+- `startsWith("")` `edsWith("");`
 
+## DOM
+ - DoOM: document object model
+ - `document.body.style.background`
+ - 
+
+## Key Terms
  - callback - A callback is a response to an event, such as a script execution in response to a mouse click
  - dynamic application - A dynamic application is one that adjusts and responds to end particular users or user actions
  - event handler - An event handler is an optional script or executable that handles input received in a program. Handlers are JavaScript code inside the `<html>` tags `(rather than the <script> tags)` that execute other JavaScript code in response to an event
