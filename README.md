@@ -3,7 +3,7 @@
 ## Basis
 
  - Created to “make web pages alive
- - IDE - Integrated Development Environment - VS code
+ - IDE - Integrated Development Environment - VS
  - Lightweight editors - not as powerful as IDE - Notepad++
  - External: `<script src="...>`
  - Authomatic semicolon insertion - interprets the line break   
